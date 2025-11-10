@@ -43,7 +43,7 @@ Make a simple **Node.js or Python app** (your choice) that:
 
 #### **Step 3. Push to GitHub**
 
-1. Create a new **public repo** under your account, e.g. `k8s-monitoring-lab`.
+1. Fork this repo and work on it for all the upcoming tasks
 2. Add:
 
    ```
