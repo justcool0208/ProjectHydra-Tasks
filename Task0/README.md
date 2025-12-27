@@ -67,9 +67,22 @@ Task0/
 - Added all required files to `Task0/`.
 - Committed with message:
 
+# output screenshot
+
+<img width="1920" height="1080" alt="health_check" src="https://github.com/user-attachments/assets/65b6b9b7-e7af-484c-9ca3-19edc1bef227" />
+
+# setup screenshot
+
+<img width="1920" height="1080" alt="setup_screenshot" src="https://github.com/user-attachments/assets/1a2091b5-0c5b-4b74-8d1d-038ea40aa118" />
+
+
+
+
+
+
 ```
 Initial commit - Task 0 setup complete
 ```
 
-- Pushed changes to my forked repository.
+
 
