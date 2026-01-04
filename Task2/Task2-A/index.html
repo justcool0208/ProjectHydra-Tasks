@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 2-A: Stock Monitor</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  display:block;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+    pre { background: #f4f4f4; padding: 10px; width: 300px; }
+    #status { font-weight: bold; }
+  </style>
+</head>
+
+<body>
+  <h2>Task 2-A: Stock Dashboard</h2>
+
+  <h5>Enter the symbol of the stock below</h5>
+
+  <input type="text" id="stock" value="GOOG">
+  <button onclick="fetchStock()">Fetch Stock Data</button>
+
+  <p id="status">Idle</p>
+  <pre id="data">No data yet</pre>
+
+<script>
+async function fetchStock() {
+  try {
+    let stk = document.getElementById("stock").value;
+    const r = await fetch(`http://localhost:8000/stock/${stk}`);
+
+    if (!r.ok) throw new Error("Bad response");
+
+    const d = await r.json();
+
+    document.getElementById("data").innerText =
+      `Stock: ${d.symbol}
+Price: ${d.price}
+Change: ${d.change}`;
+
+    document.getElementById("status").innerText = "Working";
+  } catch (e) {
+    document.getElementById("status").innerText = "Backend unavailable";
+  }
+}
+
+setInterval(fetchStock, 5000);
+fetchStock();
+</script>
+
+</body>
+</html>
