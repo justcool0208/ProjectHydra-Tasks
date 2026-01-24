@@ -1,4 +1,4 @@
-# Task 3-D: RL Agent Integration with Chaos Engineering
+# Task 4-B: RL Agent Integration with Chaos Engineering
 
 ## Objective
 Integrate your trained RL agent with a real Kubernetes cluster and chaos engineering framework. This task combines everything you've learned: RL agents, Kubernetes, Prometheus monitoring, and chaos engineering. You will build a complete self-healing system that observes real system metrics, injects controlled failures, and uses RL to learn optimal recovery strategies.

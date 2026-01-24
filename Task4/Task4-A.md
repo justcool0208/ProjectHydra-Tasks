@@ -1,4 +1,4 @@
-# Task 3-C: Advanced RL Environment for System Recovery
+# Task 4-A: Advanced RL Environment for System Recovery
 
 ## Objective
 Build a realistic RL environment that simulates Kubernetes pod failures and system recovery scenarios. This environment will serve as the foundation for training an RL agent that can learn optimal recovery actions. You will integrate Prometheus-like metrics observation and implement realistic failure injection mechanisms.

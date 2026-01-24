@@ -119,6 +119,10 @@ Implement a basic Q-Learning algorithm for a small environment:
    - [Gymnasium Documentation](https://gymnasium.farama.org/)
    - [Gymnasium Environments](https://gymnasium.farama.org/environments/classic_control/)
 
+**Good RL Courses for further study:**
+   - [DeepMind x UCL | Introduction to Reinforcement Learning 2015](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
+   - [Reinforcement Learning | NPTEL - IIT Madras](https://onlinecourses.nptel.ac.in/noc19_cs55/preview)
+
 ---
 
 ## Deliverables
