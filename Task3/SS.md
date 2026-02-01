@@ -25,7 +25,7 @@ Again Frontend delay for a small amount of time:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/986ea0ba-5782-4aa3-9fc2-bde647a502e0" />
 
 
-MEMORY Pressure:
+MEMORY Pressure on only one pod:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b50a917a-1416-4e14-8cbd-e859f8854572" />
 
