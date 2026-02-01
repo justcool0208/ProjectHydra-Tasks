@@ -34,6 +34,9 @@ MEMORY Pressure on only one pod:
 Combination of cpu stress and kill pod
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8cf2e0c-37c2-4753-a3b1-32550386f1d9" />
 
+Final
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cffe4fce-997e-47fd-a3b9-34cd7833113d" />
 
 
 
